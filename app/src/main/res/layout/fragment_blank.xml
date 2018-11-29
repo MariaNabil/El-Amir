@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pleade enter the ID you want to update "
+        android:id="@+id/edit_updated_id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:layout_below="@+id/edit_updated_id"
+        android:id="@+id/edit_name_update"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Description"
+        android:id="@+id/edit_job_description_update"
+        android:layout_below="@+id/edit_name_update"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Working Hours"
+        android:id="@+id/edit_working_hours_update"
+        android:layout_below="@+id/edit_job_description_update"
+        android:layout_alignParentStart="true"
+        android:inputType="number"/>
+
+
+</RelativeLayout>
