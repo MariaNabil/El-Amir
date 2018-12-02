@@ -220,8 +220,8 @@ public class MainActivity extends AppCompatActivity implements AddEmployeeDialog
                 }
                   //int serverID = response.body().getID();
                 //blockingQueue.add(response.body());
-                employee.setServerID(response.body().getID());
-                SaveToDatabase(employee);
+                //employee.setServerID(response.body().getID());
+                //SaveToDatabase(employee);
                 showData();
 
 
@@ -299,6 +299,8 @@ public class MainActivity extends AppCompatActivity implements AddEmployeeDialog
            // Employee Added_employee=createEmployee(employee);
             //Added_employee=createEmployee(employee);
             //int ddd= 7;
+            createEmployee(employee);
+
         }
 
         //User user=new User();
